@@ -138,11 +138,12 @@ input[type=checkbox]{
         width: 120px;
     }
     .card{
+        padding: 20px;
         margin-top: 70px;
         gap: 20px;
     }
     .card>h2{
-        font-size: 34px;
+        font-size: 30px;
     }
     .login-signup-now{
         gap: 60px;
