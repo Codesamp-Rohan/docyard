@@ -21,10 +21,10 @@ header{
 }
 @keyframes nav_barlogo {
     0%{
-        filter: drop-shadow(3px 6px 8px #6d00ff);
+        filter: drop-shadow(2px 4px 8px #7560a0);
     }
     100%{
-        filter: drop-shadow(0px 0px 0px #6d00ff);
+        filter: drop-shadow(0px 0px 0px #7560a0);
     }
 }
 main{
@@ -52,11 +52,11 @@ main{
     align-items: flex-start;
     justify-content: center;
     padding: 54px;
-    gap: 46px;
+    gap: 67px;
 }
 h2{
     color: #795fa4;
-    font-size: 40px;
+    font-size: 37px;
 }
 .email{
     border: 0px;
@@ -75,18 +75,16 @@ h2{
     display: flex;
     flex-wrap: wrap;
 }
-.submit{
-
-}
 .checkarea-help{
     padding: 10px;    
     display: flex;    
     align-items: center;    
-    justify-content: space-between;flex-wrap: wrap;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 .checkarea-help>a{
     text-decoration: underline;
-    color: white;
+    color: #9c9999;
 }
 .checkarea{
     gap: 10px;
@@ -107,7 +105,7 @@ input[type=checkbox]{
 }
 .login-signup-now>a{
     font-weight: 600;
-    font-size: 20px;
+    font-size: 15px;
     text-decoration: none;
     color: #7560a0;
 }
@@ -121,9 +119,24 @@ input[type=checkbox]{
     box-shadow: inset 0px 0px 7px 0px #30135c;
 }
 .login_btn:hover{
-    box-shadow: 2px 3px 9px 5px #30135c;
+    box-shadow: 6px 4px 9px 0px #514054;
 }
 .login_btn>a{
     text-decoration: none;
     color: white;
+}
+@media screen and (max-width: 600px) {
+    .nav_barlogo{
+        width: 120px;
+    }
+    .card{
+        margin-top: 70px;
+        gap: 20px;
+    }
+    .card>h2{
+        font-size: 34px;
+    }
+    .login-signup-now{
+    gap: 60px;
+    }
 }
