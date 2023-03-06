@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="feedback.css">
+    <link rel="website icon" class="tab_logo" type="png" href="images/docyardlogobg.png">
+    <title>DocYard - Feedback</title>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <h1><img src="images/docyardbg.png"> Feedback...</h1>
+        </div>
+    </header>
+    <main>
+        <form action="get">
+            <div class="email">
+                <label for="feedback">Email</label>
+                <input type="email" class="email1" id="email" placeholder="Email" required>
+            </div>
+            <div class="email">
+                <label for="feedback">Full Name</label>
+                <input type="text" class="email1" id="email" placeholder="Full Name" required>
+            </div>
+            <div class="email">
+                <label for="feedback">Number</label>
+                <input type="number" class="email1" id="email" placeholder="Number" required>
+            </div>
+            <div class="area">
+                <label for="feedback">Comment</label>
+                <textarea name="textarea" id="textarea" cols="20" rows="10">Comment down your queries here...</textarea>
+            </div>
+        </form>
+        <div class="button">
+        <button type="submit" class="submit" onclick="submit()"><a href="index.html">Submit</a></button>
+        </div>
+    </main>
+    <script>
+        function submit(){
+            window.alert("Your feedback has been submitted...ARIGHATO");
+        }
+    </script>
+</body>
+</html>

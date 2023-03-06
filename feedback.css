@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(0, 0, 0);
+    color: #9e6ea9;
+}
+.navbar{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 30px;
+}
+h1{
+    display: flex;
+    align-items: center;
+    font-family: cursive;
+    font-weight: 100;
+}
+.navbar>h1>img{
+    width: 309px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.email{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px;
+}
+.email1{
+    padding: 20px;
+    width: 600px;
+    font-size: 16px;
+    background-color: black;
+    border-left: 0px;
+    border-top: 0px;
+    border-right: 0px;
+    border-color: #ffffff;
+}
+.area{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+#textarea{
+    background-color: black;
+    border-left: 0px;
+    border-top: 0px;
+    border-right: 0px;
+    border-color: #ffffff;
+    color: gray;
+    padding-top: 10px;
+}
+.button{
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.submit{
+    background-color: black;
+    font-size: 16px;
+    color: #9e6ea9;
+    display: flex;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    letter-spacing: 4px;
+}
+a{
+    text-decoration: none;
+    color: #9e6ea9;
+}
+@media screen and (max-width: 1700px) {
+    .submit{
+        border: 0px;
+    }
+}
+@media screen and (max-width: 800px){
+    .submit{
+        border: 0px;
+    }
+    .navbar>h1>img{
+        width: 169px;
+    }
+    .h1{
+        width: 169px;
+    }
+    .email1{
+        width: 300px;
+    }
+    .navbar{
+        font-size: 17px;
+    }
+}
