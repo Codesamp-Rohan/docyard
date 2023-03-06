@@ -121,3 +121,16 @@ a{
         border: 0px;
     }
 }
+@media screen and (min-width: 1590px){
+    .logo{
+        display: flex;
+    z-index: 2;
+    margin-right: 110px;
+    }
+    .signup{
+        border: 0px;
+    }
+    .login{
+        border: 0px;
+    }
+}
