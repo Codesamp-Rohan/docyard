@@ -45,6 +45,7 @@ form{
     border-top: 0px;
     border-right: 0px;
     border-color: #ffffff;
+    color: white;
 }
 .area{
     display: flex;
