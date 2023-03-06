@@ -25,7 +25,7 @@
                 <input type="email" class="email" id="email" placeholder="Email" required>
                 <input type="password" class="email" id="email" placeholder="Password" required>
                 </div>
-                <button type="submit" class="login_btn" id="login_btn"><a href="#">Sign Up</a></button>
+                <button type="submit" class="login_btn" id="login_btn"><a href="index.html" onclick="signup()">Sign Up</a></button>
                 <div class="checkarea-help">
                 <div class="checkarea">
                     <input type="checkbox" name="checkbox" id="checkbox" checked = "checked">
@@ -36,9 +36,15 @@
             </form>
             <div class="login-signup-now">
                 <p>Already have an Account?</p>
-                <a href="#">Log In Now</a>
+                <a href="login.html">Log In Now</a>
             </div>
         </div>
     </main>
+
+    <script>
+        function signup(){
+            window.alert("Thanks for Signing Up");
+        }
+    </script>
 </body>
 </html>
