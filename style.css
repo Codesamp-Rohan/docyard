@@ -17,7 +17,6 @@ body{
 a{
     text-decoration: none;
     color: #9e6ea9;
-    filter: drop-shadow(2px 4px 6px #9e6ea9);
 }
 .a_navbar{
     display: flex;
@@ -42,32 +41,13 @@ a{
 }
 .logo{
     z-index: 2;
-    margin-top: -558px;
-    filter: drop-shadow(2px 4px 6px #8764a6);
+    margin-top: 10%;
     width: 800px;
     height: 355px;
-    animation-name: logo;
-    animation-direction: alternate;
-    animation-iteration-count: infinite;
-    animation-duration: 2s;
 }
 .login-signup{
     display: flex;
-    gap: 10px;
-}
-@keyframes logo {
-    0%{
-        filter: drop-shadow(0px 0px 0px #8764a6);
-
-    }
-    50%{
-        filter: drop-shadow(2px 4px 6px #7a3eae);
-
-    }
-    100%{
-        filter: drop-shadow(2px 4px 6px #8764a6);
-
-    }
+    gap: 20px;
 }
 .blob {
     width: 690.5496215820312px;
@@ -77,8 +57,9 @@ a{
     background-image: url("data:image/svg+xml;utf8,%3Csvg xmlns=%22http:%2F%2Fwww.w3.org%2F2000%2Fsvg%22 width=%22690.55%22 height=%22707.393%22 viewBox=%2286.673 171.428 690.55 707.393%22%3E%3Cdefs%3E%3CclipPath id=%22a%22%3E%3Cpath fill=%22currentColor%22 d=%22M745 653.5Q677 807 466 866T140 712.5Q25 500 158 319t318.5-140q185.5 41 261 181t7.5 293.5Z%22%2F%3E%3C%2FclipPath%3E%3C%2Fdefs%3E%3Cg clip-path=%22url(%23a)%22%3E%3Cpath fill=%22%239e6ea9%22 d=%22M745 653.5Q677 807 466 866T140 712.5Q25 500 158 319t318.5-140q185.5 41 261 181t7.5 293.5Z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E");
     filter: blur(168px);
     opacity: 0.3;
+    position: fixed;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
     .navbar{
         gap: 24px;
         font-size: 17px;
@@ -91,10 +72,10 @@ a{
         border: 0px;
     }
     .logo{
-        margin-top: -500px;
+        margin-top: 50%;
         display: flex;
         width: 400px;
-        height: 204px;
+        height: auto;
         flex-wrap: wrap;
     }
     .a_navbar{
@@ -103,38 +84,5 @@ a{
     .login-signup{
         display: flex;
         flex-wrap: wrap;
-    }
-}
-@media screen and (max-width: 1400px) {
-    .login{
-        border: 0px;
-    }
-    .signup{
-        border: 0px;
-    }
-}
-@media screen and (min-width: 1450px){
-    .logo{
-        z-index: 2;
-        margin-right: 100px;
-    }
-    .signup{
-        border: 0px;
-    }
-    .login{
-        border: 0px;
-    }
-}
-@media screen and (min-width: 1590px){
-    .logo{
-        display: flex;
-    z-index: 2;
-    margin-right: 110px;
-    }
-    .signup{
-        border: 0px;
-    }
-    .login{
-        border: 0px;
     }
 }
