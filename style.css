@@ -26,20 +26,14 @@ a{
     gap: 30px;
 }
 .signup{
-
-width: 81px;
-
-background-color: black;
-
-font-size: 15px;
+    width: 81px;
+    background-color: black;
+    font-size: 15px;
 }
 .login{
-    
-width: 68px;
-    
-font-size: 17px;
-    
-background-color: black;
+    width: 68px;   
+    font-size: 17px;
+    background-color: black;
 }
 .mainportion{
     display: flex;
@@ -112,6 +106,18 @@ background-color: black;
         border: 0px;
     }
     .signup{
+        border: 0px;
+    }
+}
+@media screen and (min-width: 1450px){
+    .logo{
+        z-index: 2;
+        margin-right: 10px;
+    }
+    .signup{
+        border: 0px;
+    }
+    .login{
         border: 0px;
     }
 }
