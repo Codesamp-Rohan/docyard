@@ -10,8 +10,9 @@
 </head>
 <body>
     <header>
+        <div><img src="images/docyardbg.png"></div>
         <div class="navbar">
-            <h1><img src="images/docyardbg.png"> Feedback...</h1>
+            <h1> Feedback...</h1>
         </div>
     </header>
     <main>
@@ -25,17 +26,17 @@
                 <input type="text" class="email1" id="email" placeholder="Full Name" required>
             </div>
             <div class="email">
-                <label for="feedback">Number</label>
-                <input type="number" class="email1" id="email" placeholder="Number" required>
+                <label for="feedback">Phone Number</label>
+                <input type="tel" class="email1" id="email" placeholder="Phone Number" required>
             </div>
             <div class="area">
                 <label for="feedback">Message</label>
                 <textarea name="textarea" id="textarea" cols="20" rows="10" placeholder="Put your message here"></textarea>
             </div>
+            <div class="button">
+                <button type="submit" class="submit" onclick="submit()"><a href="index.html">Submit</a></button>
+                </div>
         </form>
-        <div class="button">
-        <button type="submit" class="submit" onclick="submit()"><a href="index.html">Submit</a></button>
-        </div>
     </main>
     <script>
         function submit(){
