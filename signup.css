@@ -20,6 +20,7 @@ header{
     overflow: hidden;
 }
 .nav_barlogo{
+    width: 140px;
     filter: drop-shadow(3px 6px 8px #6d00ff);
     animation-name: nav_barlogo;
     animation-duration: 1s;
