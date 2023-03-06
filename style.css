@@ -112,7 +112,7 @@ a{
 @media screen and (min-width: 1450px){
     .logo{
         z-index: 2;
-        margin-right: 10px;
+        margin-right: 100px;
     }
     .signup{
         border: 0px;
