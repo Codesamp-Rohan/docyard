@@ -7,6 +7,7 @@ body{
     color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+/*Header area*/
 .navbar{
     display: flex;
     padding: 20px;
@@ -19,19 +20,19 @@ body{
     gap: 20px;
     flex-wrap: wrap;
 }
-.socialmedia>a{
+.socialmedia>a{/*Logo of header*/
     color: #eea2ff;
     display: flex;
     align-items: center;
     text-decoration: none;
 }
-.about{
+.about{/*Whole content*/
     padding: 30px;
     gap: 20px;
     display: flex;
     flex-wrap: wrap;
 }
-.aboutdoc{
+.aboutdoc{/*What is docyard?*/
     padding: 30px;
     gap: 25px;
     border-radius: 20px;
@@ -39,7 +40,7 @@ body{
     display: flex;
     flex-wrap: wrap;
 }
-.founders{
+.founders{/*Founder's area*/
     padding: 30px;
     gap: 25px;
     border-radius: 20px;
@@ -60,12 +61,12 @@ h2{
     font-weight: 100;
     color: #f0b1ff;
 }
-.ceosocial{
+.ceosocial{/*founders social media links*/
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
 }
-.goals{
+.goals{/*DocYard's goal*/
     padding: 30px;
     gap: 25px;
     border-radius: 20px;
