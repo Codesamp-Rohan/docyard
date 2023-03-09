@@ -4,4 +4,34 @@
 }
 body{
     background-color: black;
+    color: white;
+}
+.nav_bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.socialmedia{
+    display: flex;
+    gap: 20px;
+}
+main{
+    padding: 20px;
+}
+a{
+    text-decoration: none;
+    color: #9e6ea9;
+}
+.recommended_yt{
+    display: flex;
+    border: #9e6ea9;
+    border-radius: 20px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.ytimg{
+    width: auto;
+    height: 300px;
 }
