@@ -21,8 +21,13 @@ main{
     padding: 20px;
 }
 a{
+    font-size: 40px;
+    color: #b0a1b8;
+    display: flex;
     text-decoration: none;
-    color: #9e6ea9;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
 }
 .recommended_yt{
     display: flex;
@@ -31,7 +36,24 @@ a{
     flex-wrap: wrap;
     justify-content: space-around;
 }
+h1{
+    padding: 20px;
+}
 .ytimg{
+    border: 2px solid #9e6ea9;
+    border-radius: 20px;
     width: auto;
-    height: 300px;
+    height: 200px;
+}
+@media screen and (max-width: 600px) {
+    .ytimg{
+        height: 100px;
+        overflow: hidden;
+    }
+    a{
+        font-size: 12px;
+    }
+    main{
+        padding: 2px;
+    }
 }
