@@ -97,17 +97,18 @@ a{
         visibility: hidden;
     }
     .subbtn{
-        background-color: #1d1d1d;
         display: flex;
         flex-direction: column;
         visibility: hidden;
     }
     .subbutton{
+        background-image: #000000;
+        border-left: 1px solid #440053;
         font-family: arial;
         padding: 10px;
         color: #9e6ea9;
     }
     .subbutton:hover{
-        background-color: #000000;
+        background-color: #4a434b;
     }
 }
