@@ -14,7 +14,7 @@ body{
     padding: 20px;
     justify-content: flex-end;
 }
-.navbarmini{
+.menu{
     display: none;
 }
 a{
@@ -76,7 +76,6 @@ a{
         border: 0px;
     }
     .logo{
-        margin-top: 50%;
         display: flex;
         width: 400px;
         height: auto;
@@ -86,10 +85,28 @@ a{
         display: flex;
         flex-wrap: wrap;
     }
-    .navbarmini{
-        display: contents;
+    .menu{
+        padding: 20px;
+        display: block;
     }
-    .a_navbarmini{
-       visibility: hidden;
+    .menu>img{
+        display: block;
+    }
+    .menuoption{
+        visibility: hidden;
+    }
+    .subbtn{
+        background-color: #1d1d1d;
+        display: flex;
+        flex-direction: column;
+        visibility: hidden;
+    }
+    .subbutton{
+        font-family: arial;
+        padding: 10px;
+        color: #9e6ea9;
+    }
+    .subbutton:hover{
+        background-color: #000000;
     }
 }

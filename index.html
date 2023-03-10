@@ -22,15 +22,15 @@
                 <a href="login.html">Log In</a>
             </div>
         </div>
-        <div onclick="option()" class="navbarmini">
-            <img src="images/menu.png">
-            <div class="a_navbarmini">
-                <a href="#">Home</a>
-                <a href="about.html">About</a>
-                <a href="blog.html">Blog</a>
-                <a href="feedback.html">Feedback</a>
+        <div class="menu">
+            <span class="mainbutton"><img src="images/menu.png" onclick="showoption()" ondblclick="hideoption()"></span>
+              <span class="subbtn" id="subbtn">
+            <span class="subbutton" id="subbutton"><a href="#">Home</a></span>
+            <span class="subbutton" id="subbutton"><a href="about.html">About</a></span>
+            <span class="subbutton" id="subbutton"><a href="blog.html">Blog</a></span>
+            <span class="subbutton" id="subbutton"><a href="feedback.html">Feedback</a></span>
+              </span>
             </div>
-        </div>
     </header>
     <main>
         <div class="mainportion">
@@ -38,6 +38,8 @@
             <img class="logo" src="images/docyardbg.png">
         </div>
     </main>
+
+    <script src="script.js"></script>
 </body>
-<script src="script.js"></script>
+
 </html>
