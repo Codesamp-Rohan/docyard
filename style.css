@@ -86,6 +86,7 @@ a{
         flex-wrap: wrap;
     }
     .menu{
+        margin-top: -60px;
         padding: 20px;
         display: block;
     }
