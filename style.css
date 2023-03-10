@@ -14,6 +14,9 @@ body{
     padding: 20px;
     justify-content: flex-end;
 }
+.navbarmini{
+    display: none;
+}
 a{
     text-decoration: none;
     color: #9e6ea9;
@@ -60,9 +63,10 @@ a{
     position: fixed;
 }
 @media screen and (max-width: 800px) {
-    .navbar{
+    .a_navbar{
         gap: 24px;
         font-size: 17px;
+        display: none;
     }
     .login{
         border: 0px;
@@ -78,11 +82,14 @@ a{
         height: auto;
         flex-wrap: wrap;
     }
-    .a_navbar{
-        gap: 10px;
-    }
     .login-signup{
         display: flex;
         flex-wrap: wrap;
+    }
+    .navbarmini{
+        display: contents;
+    }
+    .a_navbarmini{
+       visibility: hidden;
     }
 }
