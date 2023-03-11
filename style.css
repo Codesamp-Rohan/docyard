@@ -117,6 +117,7 @@ p{
         padding: 10px;
         color: #9e6ea9;
     }
+    .show {visibility: visible;}
     .subbutton:hover{
         background-color: #4a434b;
     }
