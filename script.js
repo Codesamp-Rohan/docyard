@@ -1,9 +1,3 @@
-// function showoption(){
-//     const a = document.getElementById("subbtn").style.visibility = "visible";
-// }
-// function hideoption(){
-//     const b = document.getElementById("subbtn").style.visibility = "hidden";
-// }
 function myFunction() {
     document.getElementById("subbtn").classList.toggle("show");
   }

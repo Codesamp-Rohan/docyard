@@ -111,11 +111,11 @@ p{
         visibility: hidden;
     }
     .subbutton{
-        background-image: #000000;
+        background-color: #000000;
         border-left: 1px solid #440053;
         font-family: arial;
         padding: 10px;
-        color: #9e6ea9;
+        color: #f1b3ff;
     }
     .show {visibility: visible;}
     .subbutton:hover{
